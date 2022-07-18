@@ -1,3 +1,101 @@
+import Box from '@mui/material/Box'
+import Card from '@mui/material/Card'
+import Chip from '@mui/material/Chip'
+import Table from '@mui/material/Table'
+import TableRow from '@mui/material/TableRow'
+import TableHead from '@mui/material/TableHead'
+import TableBody from '@mui/material/TableBody'
+import TableCell from '@mui/material/TableCell'
+import Typography from '@mui/material/Typography'
+import TableContainer from '@mui/material/TableContainer'
+
+
+const rows = [
+  {
+    age: 32,
+    status: 'current',
+    date: '01/01/2020',
+    name: 'Henry Schartz',
+    salary: '$5000',
+    email: 'henrtysc@gmail.com',
+    designation: 'Editor'
+  },
+  {
+    age: 22,
+    date: '01/01/2020',
+    salary: '$4000',
+    status: 'current',
+    name: 'Margaret Bonh',
+    email: 'margaretbon@gmail.com',
+    designation: 'Sub-Editor'
+  },
+  {
+    age: 22,
+    date: '01/01/2020',
+    name: 'Julien Zuana',
+    status: 'current',
+    salary: '$4000',
+    email: 'zulien@gmail.com',
+    designation: 'Sub-Editor'
+  },
+  {
+    age: 21,
+    date: '01/01/2021',
+    status: 'current',
+    salary: '$1900',
+    name: 'Mardalena Pamela',
+    email: 'marpam@gmail.com',
+    designation: 'Office Desk Executive'
+  },
+  {
+    age: 32,
+    status: 'current',
+    date: '01/01/2021',
+    salary: '$1076.28',
+    name: 'Stepahie Chawratich',
+    designation: 'Office Desk Executive',
+    email: 'stephachar@gmail.com'
+  },
+  {
+    age: 33,
+    date: '01/01/2021',
+    salary: '3000',
+    name: 'Margareta Zhaini',
+    status: 'current',
+        email: 'zhaini@gmail.com',
+    designation: 'Business Executive'
+  },
+  {
+    age: 31,
+    status: 'current',
+    date: '06/01/2020',
+    salary: '$3000',
+    name: 'Zuana Margareta',
+    designation: 'Business Executive',
+    email: 'zuanamargareta@gmail.com'
+  },
+  {
+    age: 32,
+    date: '01/01/2020',
+    salary: '$3000',
+    name: 'Katerina Gomes',
+    status: 'current',
+    designation: 'Accountant',
+    email: 'katgom@google.com'
+  }
+]
+
+const statusObj = {
+  applied: { color: 'info' },
+  rejected: { color: 'error' },
+  current: { color: 'primary' },
+  resigned: { color: 'warning' },
+  professional: { color: 'success' }
+}
+
+
+
+
 const DashboardTable = () => {
   return (
     <Card>
