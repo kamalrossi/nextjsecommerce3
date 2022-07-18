@@ -1,4 +1,4 @@
-// ** MUI Imports
+  // ** MUI Imports
 import Box from '@mui/material/Box'
 import Card from '@mui/material/Card'
 import Avatar from '@mui/material/Avatar'
@@ -14,52 +14,52 @@ import DotsVertical from 'mdi-material-ui/DotsVertical'
 
 const data = [
   {
-    sales: '894k',
+    sales: '7k',
     trendDir: 'up',
-    subtitle: 'USA',
-    title: '$8,656k',
-    avatarText: 'US',
-    trendNumber: '25.8%',
+    subtitle: 'Biz',
+    title: '$7k',
+    avatarText: 'Biz',
+    trendNumber: '5%',
     avatarColor: 'success',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
-    sales: '645k',
-    subtitle: 'UK',
+    sales: '5k',
+    subtitle: 'Tec',
     trendDir: 'down',
-    title: '$2,415k',
-    avatarText: 'UK',
-    trendNumber: '6.2%',
+    title: '5k',
+    avatarText: 'Tec',
+    trendNumber: '6%',
     avatarColor: 'error',
     trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
-    sales: '148k',
-    title: '$865k',
+    sales: '4k',
+    title: '4k',
     trendDir: 'up',
-    avatarText: 'IN',
-    subtitle: 'India',
-    trendNumber: '12.4%',
+    avatarText: 'Wor',
+    subtitle: 'Wor',
+    trendNumber: '2',
     avatarColor: 'warning',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
-    sales: '86k',
-    title: '$745k',
+    sales: '1k',
+    title: '1k',
     trendDir: 'down',
-    avatarText: 'JA',
-    subtitle: 'Japan',
-    trendNumber: '11.9%',
+    avatarText: 'Loc',
+    subtitle: 'Loc',
+    trendNumber: '1',
     avatarColor: 'secondary',
     trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
-    sales: '42k',
-    title: '$45k',
+    sales: '1k',
+    title: '1k',
     trendDir: 'up',
-    avatarText: 'KO',
-    subtitle: 'Korea',
-    trendNumber: '16.2%',
+    avatarText: 'Spo',
+    subtitle: 'Spo',
+    trendNumber: '2%',
     avatarColor: 'error',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   }
@@ -69,7 +69,7 @@ const SalesByCountries = () => {
   return (
     <Card>
       <CardHeader
-        title='Sales by Countries'
+        title='Views by Cateogory'
         titleTypographyProps={{ sx: { lineHeight: '1.2 !important', letterSpacing: '0.31px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
