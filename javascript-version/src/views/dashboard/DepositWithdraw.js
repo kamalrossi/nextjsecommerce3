@@ -47,7 +47,7 @@ const depositData = [
     title: 'Milakova Zuaana',
     subtitle: 'Fashion Blogger',
     logo: '/images/logos/5.png',
-    ,
+    
   }
 ]
 
