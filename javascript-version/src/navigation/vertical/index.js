@@ -18,57 +18,57 @@ const navigation = () => {
       path: '/'
     },
     {
-      title: 'Account Settings',
+      title: 'Settings',
       icon: AccountCogOutline,
       path: '/account-settings'
     },
     {
-      sectionTitle: 'Pages'
+      sectionTitle: 'Users'
     },
     {
-      title: 'Login',
+      title: 'Editor',
       icon: Login,
       path: '/pages/login',
       openInNewTab: true
     },
     {
-      title: 'Register',
+      title: 'Reporter',
       icon: AccountPlusOutline,
       path: '/pages/register',
       openInNewTab: true
     },
     {
-      title: 'Error',
+      title: 'Blogger',
       icon: AlertCircleOutline,
       path: '/pages/error',
       openInNewTab: true
     },
     {
-      sectionTitle: 'User Interface'
+      sectionTitle: 'Tasks'
     },
     {
-      title: 'Typography',
+      title: 'Post',
       icon: FormatLetterCase,
       path: '/typography'
     },
     {
-      title: 'Icons',
+      title: 'Ad-management',
       path: '/icons',
       icon: GoogleCirclesExtended
     },
     {
-      title: 'Cards',
+      title: 'Review/Comment',
       icon: CreditCardOutline,
       path: '/cards'
     },
     {
-      title: 'Tables',
+      title: 'Inventory',
       icon: Table,
       path: '/tables'
     },
     {
       icon: CubeOutline,
-      title: 'Form Layouts',
+      title: 'Log Out',
       path: '/form-layouts'
     }
   ]
