@@ -15,9 +15,7 @@ import DotsVertical from 'mdi-material-ui/DotsVertical'
 import ReactApexcharts from 'src/@core/components/react-apexcharts'
 
 const WeeklyOverview = () => {
-  // ** Hook
   const theme = useTheme()
-
   const options = {
     chart: {
       parentHeightOffset: 0,
@@ -97,12 +95,12 @@ const WeeklyOverview = () => {
         <ReactApexcharts type='bar' height={205} options={options} series={[{ data: [37, 57, 45, 75, 57, 40, 65] }]} />
         <Box sx={{ mb: 7, display: 'flex', alignItems: 'center' }}>
           <Typography variant='h5' sx={{ mr: 4 }}>
-            45%
+            15%
           </Typography>
-          <Typography variant='body2'>Your sales performance is 45% 😎 better compared to last month</Typography>
+          <Typography variant='body2'>Post boost is 15% better than last month</Typography>
         </Box>
         <Button fullWidth variant='contained'>
-          Details
+         Watch Analytics
         </Button>
       </CardContent>
     </Card>
