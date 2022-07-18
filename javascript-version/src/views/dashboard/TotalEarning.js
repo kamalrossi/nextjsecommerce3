@@ -16,29 +16,29 @@ const data = [
   {
     progress: 75,
     imgHeight: 20,
-    title: 'Zipcar',
+    title: 'Ad',
     color: 'primary',
-    amount: '$24,895.65',
-    subtitle: 'Vuejs, React & HTML',
-    imgSrc: '/images/cards/logo-zipcar.png'
+    amount: '$2000',
+    subtitle: 'Website and App',
+    imgSrc: '/images/cards/ad.png'
   },
   {
     progress: 50,
     color: 'info',
     imgHeight: 27,
-    title: 'Bitbank',
-    amount: '$8,650.20',
-    subtitle: 'Sketch, Figma & XD',
-    imgSrc: '/images/cards/logo-bitbank.png'
+    title: 'Spons. News',
+    amount: '$500',
+    subtitle: 'Website and App',
+    imgSrc: '/images/cards/news.png'
   },
   {
     progress: 20,
     imgHeight: 20,
-    title: 'Aviato',
+    title: 'Promotion',
     color: 'secondary',
-    amount: '$1,245.80',
-    subtitle: 'HTML & Angular',
-    imgSrc: '/images/cards/logo-aviato.png'
+    amount: '$1000',
+    subtitle: 'Internal and external',
+    imgSrc: '/images/cards/siren.png'
   }
 ]
 
@@ -46,7 +46,7 @@ const TotalEarning = () => {
   return (
     <Card>
       <CardHeader
-        title='Total Earning'
+        title='Net Income'
         titleTypographyProps={{ sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -57,18 +57,18 @@ const TotalEarning = () => {
       <CardContent sx={{ pt: theme => `${theme.spacing(2.25)} !important` }}>
         <Box sx={{ mb: 1.5, display: 'flex', alignItems: 'center' }}>
           <Typography variant='h4' sx={{ fontWeight: 600, fontSize: '2.125rem !important' }}>
-            $24,895
+            $3500
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', color: 'success.main' }}>
             <MenuUp sx={{ fontSize: '1.875rem', verticalAlign: 'middle' }} />
             <Typography variant='body2' sx={{ fontWeight: 600, color: 'success.main' }}>
-              10%
+              5%
             </Typography>
           </Box>
         </Box>
 
         <Typography component='p' variant='caption' sx={{ mb: 10 }}>
-          Compared to $84,325 last year
+          Increased $300 from last year
         </Typography>
 
         {data.map((item, index) => {
