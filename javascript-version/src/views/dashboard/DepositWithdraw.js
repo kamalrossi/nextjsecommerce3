@@ -1,4 +1,4 @@
-// ** MUI Imports
+
 import Box from '@mui/material/Box'
 import Card from '@mui/material/Card'
 import { styled } from '@mui/material/styles'
@@ -11,42 +11,42 @@ const depositData = [
   {
     logoWidth: 28,
     logoHeight: 29,
-    amount: '+$4,650',
-    subtitle: 'Sell UI Kit',
-    title: 'Gumroad Account',
-    logo: '/images/logos/gumroad.png'
+    amount: '3K',
+    subtitle: 'Fashion Blogger',
+    title: 'Veronica Trenchea',
+    logo: '/images/logo/czech1.png'
   },
   {
     logoWidth: 38,
     logoHeight: 38,
-    amount: '+$92,705',
-    title: 'Mastercard',
-    subtitle: 'Wallet deposit',
-    logo: '/images/logos/mastercard-label.png'
+    amount: '3K',
+    title: 'Krunikova Heimin',
+    subtitle: 'Tech Blogger',
+    logo: '/images/logos/czech2.png'
   },
   {
     logoWidth: 20,
     logoHeight: 28,
-    amount: '+$957',
-    title: 'Stripe Account',
-    subtitle: 'iOS Application',
-    logo: '/images/logos/stripe.png'
+    amount: '3K',
+    title: 'Verdana Meiani',
+    subtitle: 'Climate Blogger',
+    logo: '/images/logos/czech3.png'
   },
   {
     logoWidth: 34,
     logoHeight: 32,
-    amount: '+$6,837',
-    title: 'American Bank',
-    subtitle: 'Bank Transfer',
-    logo: '/images/logos/american-bank.png'
+    amount: '2K',
+    title: 'Kiara Zunaza',
+    subtitle: 'Climate Blogger',
+    logo: '/images/logos/czech4.png'
   },
   {
     logoWidth: 33,
     logoHeight: 22,
-    amount: '+$446',
-    title: 'Bank Account',
-    subtitle: 'Wallet deposit',
-    logo: '/images/logos/citi-bank.png'
+    amount: '2K',
+    title: 'Milakova Zuaana',
+    subtitle: 'Fashion Blogger',
+    logo: '/images/logos/czech5.png'
   }
 ]
 
@@ -54,42 +54,42 @@ const withdrawData = [
   {
     logoWidth: 29,
     logoHeight: 30,
-    amount: '-$145',
-    title: 'Google Adsense',
-    subtitle: 'Paypal deposit',
-    logo: '/images/logos/google.png'
+    amount: '2K',
+    title: 'Katerina Nina',
+    subtitle: 'Reporter',
+    logo: '/images/logos/polish1.png'
   },
   {
     logoWidth: 34,
     logoHeight: 34,
-    amount: '-$1870',
-    title: 'Github Enterprise',
-    logo: '/images/logos/github.png',
-    subtitle: 'Security & compliance'
+    amount: '2K',
+    title: 'Zuana Magina',
+    logo: '/images/logos/polish2.png',
+    subtitle: 'Reporter'
   },
   {
     logoWidth: 30,
     logoHeight: 30,
-    amount: '-$450',
-    title: 'Upgrade Slack Plan',
-    subtitle: 'Debit card deposit',
-    logo: '/images/logos/slack.png'
+    amount: '2K',
+    title: 'Daniela Suparova',
+    subtitle: 'Reporter',
+    logo: '/images/logos/polish3.png'
   },
   {
     logoWidth: 30,
     logoHeight: 30,
-    amount: '-$540',
-    title: 'Digital Ocean',
-    subtitle: 'Cloud Hosting',
-    logo: '/images/logos/digital-ocean.png'
+    amount: '2K',
+    title: 'Margerata Hasina',
+    subtitle: 'Reporter',
+    logo: '/images/logos/polish4.png'
   },
   {
     logoWidth: 36,
     logoHeight: 21,
-    amount: '-$21',
-    title: 'AWS Account',
-    logo: '/images/logos/aws.png',
-    subtitle: 'Choosing a Cloud Platform'
+    amount: '2K',
+    title: 'Pamela Kurikova',
+    logo: '/images/logos/polish5.png',
+    subtitle: 'Reporter'
   }
 ]
 
@@ -109,7 +109,7 @@ const DepositWithdraw = () => {
     <Card sx={{ display: 'flex', justifyContent: 'space-between', flexDirection: ['column', 'column', 'row'] }}>
       <Box sx={{ width: '100%' }}>
         <CardHeader
-          title='Deposit'
+          title='Rated Blogger'
           sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
           action={<Typography variant='caption'>View All</Typography>}
           titleTypographyProps={{
@@ -155,7 +155,7 @@ const DepositWithdraw = () => {
 
       <Box sx={{ width: '100%' }}>
         <CardHeader
-          title='Withdraw'
+          title='Reporter'
           sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
           action={<Typography variant='caption'>View All</Typography>}
           titleTypographyProps={{
