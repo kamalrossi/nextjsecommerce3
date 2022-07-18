@@ -20,7 +20,7 @@ const data = [
     color: 'primary',
     amount: '$2000',
     subtitle: 'Website and App',
-    imgSrc: '/images/cards/ad.png'
+    imgSrc: '/images/cards/3.png'
   },
   {
     progress: 50,
@@ -29,7 +29,7 @@ const data = [
     title: 'Spons. News',
     amount: '$500',
     subtitle: 'Website and App',
-    imgSrc: '/images/cards/news.png'
+    imgSrc: '/images/cards/2.png'
   },
   {
     progress: 20,
@@ -38,7 +38,7 @@ const data = [
     color: 'secondary',
     amount: '$1000',
     subtitle: 'Internal and external',
-    imgSrc: '/images/cards/siren.png'
+    imgSrc: '/images/cards/1.png'
   }
 ]
 
