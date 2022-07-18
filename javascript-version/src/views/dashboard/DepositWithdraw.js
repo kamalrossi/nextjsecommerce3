@@ -14,7 +14,7 @@ const depositData = [
     amount: '3K',
     subtitle: 'Fashion Blogger',
     title: 'Veronica Trenchea',
-    logo: '/images/logo/czech1.png'
+    logo: '/images/polishfaces/1.png'
   },
   {
     logoWidth: 38,
@@ -22,7 +22,7 @@ const depositData = [
     amount: '3K',
     title: 'Krunikova Heimin',
     subtitle: 'Tech Blogger',
-    logo: '/images/logos/czech2.png'
+    logo: '/images/policefaces/2.png'
   },
   {
     logoWidth: 20,
@@ -30,7 +30,7 @@ const depositData = [
     amount: '3K',
     title: 'Verdana Meiani',
     subtitle: 'Climate Blogger',
-    logo: '/images/logos/czech3.png'
+    logo: '/images/policefaces/3.png'
   },
   {
     logoWidth: 34,
@@ -38,7 +38,7 @@ const depositData = [
     amount: '2K',
     title: 'Kiara Zunaza',
     subtitle: 'Climate Blogger',
-    logo: '/images/logos/czech4.png'
+    logo: '/images/policefaces/4.png'
   },
   {
     logoWidth: 33,
@@ -46,7 +46,8 @@ const depositData = [
     amount: '2K',
     title: 'Milakova Zuaana',
     subtitle: 'Fashion Blogger',
-    logo: '/images/logos/czech5.png'
+    logo: '/images/policefaces/5.png',
+    ,
   }
 ]
 
@@ -57,14 +58,14 @@ const withdrawData = [
     amount: '2K',
     title: 'Katerina Nina',
     subtitle: 'Reporter',
-    logo: '/images/logos/polish1.png'
+    logo: '/images/policefaces/6.png',
   },
   {
     logoWidth: 34,
     logoHeight: 34,
     amount: '2K',
     title: 'Zuana Magina',
-    logo: '/images/logos/polish2.png',
+   logo: '/images/policefaces/7.png',
     subtitle: 'Reporter'
   },
   {
@@ -73,7 +74,7 @@ const withdrawData = [
     amount: '2K',
     title: 'Daniela Suparova',
     subtitle: 'Reporter',
-    logo: '/images/logos/polish3.png'
+    logo: '/images/policefaces/8.png',
   },
   {
     logoWidth: 30,
@@ -81,14 +82,14 @@ const withdrawData = [
     amount: '2K',
     title: 'Margerata Hasina',
     subtitle: 'Reporter',
-    logo: '/images/logos/polish4.png'
+    logo: '/images/policefaces/9.png',
   },
   {
     logoWidth: 36,
     logoHeight: 21,
     amount: '2K',
     title: 'Pamela Kurikova',
-    logo: '/images/logos/polish5.png',
+    logo: '/images/policefaces/10.png',
     subtitle: 'Reporter'
   }
 ]
