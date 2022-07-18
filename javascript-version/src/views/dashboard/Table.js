@@ -10,78 +10,79 @@ import TableCell from '@mui/material/TableCell'
 import Typography from '@mui/material/Typography'
 import TableContainer from '@mui/material/TableContainer'
 
+
 const rows = [
   {
-    age: 27,
-    status: 'current',
-    date: '09/27/2018',
-    name: 'Sally Quinn',
-    salary: '$19586.23',
-    email: 'eebsworth2m@sbwire.com',
-    designation: 'Human Resources Assistant'
-  },
-  {
-    age: 61,
-    date: '09/23/2016',
-    salary: '$23896.35',
-    status: 'professional',
-    name: 'Margaret Bowers',
-    email: 'kocrevy0@thetimes.co.uk',
-    designation: 'Nuclear Power Engineer'
-  },
-  {
-    age: 59,
-    date: '10/15/2017',
-    name: 'Minnie Roy',
-    status: 'rejected',
-    salary: '$18991.67',
-    email: 'ediehn6@163.com',
-    designation: 'Environmental Specialist'
-  },
-  {
-    age: 30,
-    date: '06/12/2018',
-    status: 'resigned',
-    salary: '$19252.12',
-    name: 'Ralph Leonard',
-    email: 'dfalloona@ifeng.com',
-    designation: 'Sales Representative'
-  },
-  {
-    age: 66,
-    status: 'applied',
-    date: '03/24/2018',
-    salary: '$13076.28',
-    name: 'Annie Martin',
-    designation: 'Operator',
-    email: 'sganderton2@tuttocitta.it'
-  },
-  {
-    age: 33,
-    date: '08/25/2017',
-    salary: '$10909.52',
-    name: 'Adeline Day',
-    status: 'professional',
-    email: 'hnisius4@gnu.org',
-    designation: 'Senior Cost Accountant'
-  },
-  {
-    age: 61,
-    status: 'current',
-    date: '06/01/2017',
-    salary: '$17803.80',
-    name: 'Lora Jackson',
-    designation: 'Geologist',
-    email: 'ghoneywood5@narod.ru'
+    age: 32,
+    status: 'On Duty',
+    date: '01/01/2020',
+    name: 'Henry Schartz',
+    salary: '$5000',
+    email: 'henrtysc@gmail.com',
+    designation: 'Editor'
   },
   {
     age: 22,
-    date: '12/03/2017',
-    salary: '$12336.17',
-    name: 'Rodney Sharp',
-    status: 'professional',
-    designation: 'Cost Accountant',
-    email: 'dcrossman3@google.co.jp'
+    date: '01/01/2020',
+    salary: '$4000',
+    status: 'On Duty',
+    name: 'Margaret Bonh',
+    email: 'margaretbon@gmail.com',
+    designation: 'Sub-Editor'
+  },
+  {
+    age: 22,
+    date: '01/01/2020',
+    name: 'Julien Zuana',
+    status: 'On Duty',
+    salary: '$4000',
+    email: 'zulien@gmail.com',
+    designation: 'Sub-Editor'
+  },
+  {
+    age: 21,
+    date: '01/01/2021',
+    status: 'on duty',
+    salary: '$1900',
+    name: 'Mardalena Pamela',
+    email: 'marpam@gmail.com',
+    designation: 'Office Desk Executive'
+  },
+  {
+    age: 32,
+    status: 'on leave',
+    date: '01/01/2021',
+    salary: '$1076.28',
+    name: 'Stepahie Chawratich',
+    designation: 'Office Desk Executive',
+    email: 'stephachar@gmail.com'
+  },
+  {
+    age: 33,
+    date: '01/01/2021',
+    salary: '3000',
+    name: 'Margareta Zhaini',
+    status: 'on-leave',
+    email: 'zhaini@gmail.com',
+    designation: 'Business Executive'
+  },
+  {
+    age: 31,
+    status: 'on-duty',
+    date: '06/01/2020',
+    salary: '$3000',
+    name: 'Zuana Margareta',
+    designation: 'Business Executive',
+    email: 'zuanamargareta@gmail.com'
+  },
+  {
+    age: 32,
+    date: '01/01/2020',
+    salary: '$3000',
+    name: 'Katerina Gomes',
+    status: 'on-duty',
+    designation: 'Accountant',
+    email: 'katgom@google.com'
   }
 ]
 
@@ -101,11 +102,13 @@ const DashboardTable = () => {
           <TableHead>
             <TableRow>
               <TableCell>Name</TableCell>
-              <TableCell>Email</TableCell>
-              <TableCell>Date</TableCell>
+              <TableCell>Designation</TableCell>
+               <TableCell>Age</TableCell>
+            
+              <TableCell>Joining Date</TableCell>
               <TableCell>Salary</TableCell>
-              <TableCell>Age</TableCell>
-              <TableCell>Status</TableCell>
+             <TableCell>Email</TableCell>
+              
             </TableRow>
           </TableHead>
           <TableBody>
@@ -114,16 +117,19 @@ const DashboardTable = () => {
                 <TableCell sx={{ py: theme => `${theme.spacing(0.5)} !important` }}>
                   <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <Typography sx={{ fontWeight: 500, fontSize: '0.875rem !important' }}>{row.name}</Typography>
-                    <Typography variant='caption'>{row.designation}</Typography>
+                    <Typography variant='caption'>{row.status}</Typography>
                   </Box>
                 </TableCell>
-                <TableCell>{row.email}</TableCell>
+                
+                
+                
+                <TableCell>{row.age}</TableCell>
                 <TableCell>{row.date}</TableCell>
                 <TableCell>{row.salary}</TableCell>
-                <TableCell>{row.age}</TableCell>
+                
                 <TableCell>
                   <Chip
-                    label={row.status}
+                    label={row.email}
                     color={statusObj[row.status].color}
                     sx={{
                       height: 24,
