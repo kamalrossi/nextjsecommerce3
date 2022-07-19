@@ -42,19 +42,19 @@ const Dashboard = () => {
           <Grid container spacing={6}>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='$25.6k'
+                stats='6k'
                 icon={<Poll />}
                 color='success'
-                trendNumber='+42%'
-                title='Total Profit'
-                subtitle='Weekly Profit'
+                trendNumber='+4%'
+                title='Follower'
+                subtitle='Weekly Upgrade'
               />
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='$78'
-                title='Refunds'
-                trend='negative'
+                stats='4K'
+                title='Recurring Reader'
+                trend='positive'
                 color='secondary'
                 trendNumber='-15%'
                 subtitle='Past Month'
@@ -63,22 +63,22 @@ const Dashboard = () => {
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='862'
-                trend='negative'
-                trendNumber='-18%'
-                title='New Project'
-                subtitle='Yearly Project'
+                stats='1K'
+                trend='positive'
+                trendNumber='8%'
+                title='New Reader'
+                subtitle='Weekly Upgrade'
                 icon={<BriefcaseVariantOutline />}
               />
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='15'
+                stats='1K'
                 color='warning'
-                trend='negative'
-                trendNumber='-18%'
-                subtitle='Last Week'
-                title='Sales Queries'
+                trend='positive'
+                trendNumber='8%'
+                subtitle='Weekly Upgrade'
+                title='Retweet'
                 icon={<HelpCircleOutline />}
               />
             </Grid>
